@@ -42,7 +42,7 @@ public class Course {
     public Course() {
         //makes and sets default constructors
         ID = 0;
-        Name = " ";
+        Name = "";
         Code = 0;
     }
     public Course(int ID, String Name, int Code) {
@@ -50,18 +50,27 @@ public class Course {
         this.ID = ID;
         this.Name = Name;
         this.Code = Code;
-
+}
         //put setters and getters here
+        public int getID(){
+            return ID;
+        }
+        public void setID(int value1){
+            ID = value1;
+        }
 
+        public String getName(){
+            return Name;
+        }
+        public void setName(String value2){
+            Name = value2;
+        }
 
-        //testing test
-        //testing
-        /*
-        1
-        2
-        3
-        4
-         */
-    }
+        public int getCode(){
+            return Code;
+        }
+        public void setCode(int value3){
+            Code = value3;
+        }
 }
 
