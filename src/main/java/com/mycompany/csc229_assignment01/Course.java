@@ -34,4 +34,34 @@ package com.mycompany.csc229_assignment01;
  */
 public class Course {
 
+    //makes instance variable
+    private int ID;
+    private String Name;
+    private int Code;
+
+    public Course() {
+        //makes and sets default constructors
+        ID = 0;
+        Name = " ";
+        Code = 0;
+    }
+    public Course(int ID, String Name, int Code) {
+        //overloaded constructors and the 3 parameters
+        this.ID = ID;
+        this.Name = Name;
+        this.Code = Code;
+
+        //put setters and getters here
+
+
+        //testing test
+        //testing
+        /*
+        1
+        2
+        3
+        4
+         */
+    }
 }
+
